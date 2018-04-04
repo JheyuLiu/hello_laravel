@@ -100,9 +100,15 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'name' => [
+            'required' => '名稱不能為空',
         ],
+        'email' => [
+            'required' => '信箱地址不能為空！',
+        ],
+        'password' => [
+            'required' => '密碼不能為空',
+        ]
     ],
 
     /*
